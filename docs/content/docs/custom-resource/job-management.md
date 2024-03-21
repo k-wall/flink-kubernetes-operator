@@ -206,7 +206,7 @@ Users can control the cleanup behaviour by specifying a maximum age and maximum 
 
 ```
 kubernetes.operator.savepoint.history.max.age: 24 h
-kubernetes.operator.savepoint.history.max.count: 5
+kubernetes.operator.savepoint.history.max.count: "5"
 ```
 
 {{< hint info >}}
