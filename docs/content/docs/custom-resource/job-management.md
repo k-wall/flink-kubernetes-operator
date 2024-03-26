@@ -266,7 +266,7 @@ If a new upgrade is not marked stable within a certain configurable time period 
 
 To enable rollbacks you need to set:
 ```
-kubernetes.operator.deployment.rollback.enabled: true
+kubernetes.operator.deployment.rollback.enabled: "true"
 ```
 
 HA is currently required for the rollback functionality.
