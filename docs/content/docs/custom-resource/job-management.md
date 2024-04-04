@@ -206,7 +206,7 @@ Users can control the cleanup behaviour by specifying a maximum age and maximum 
 
 ```
 kubernetes.operator.savepoint.history.max.age: 24 h
-kubernetes.operator.savepoint.history.max.count: 5
+kubernetes.operator.savepoint.history.max.count: "5"
 ```
 
 {{< hint info >}}
@@ -266,7 +266,7 @@ If a new upgrade is not marked stable within a certain configurable time period 
 
 To enable rollbacks you need to set:
 ```
-kubernetes.operator.deployment.rollback.enabled: true
+kubernetes.operator.deployment.rollback.enabled: "true"
 ```
 
 HA is currently required for the rollback functionality.
